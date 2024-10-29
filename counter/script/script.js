@@ -4,7 +4,7 @@ new Vue({
     data() {
         return{
            count: 1,
-           count2:count2
+           count2:0
         };
     },
     methods: {
