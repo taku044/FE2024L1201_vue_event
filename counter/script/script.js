@@ -8,19 +8,19 @@ new Vue({
     },
     methods: {
         times(){
-            this.count*2
+            this.count*=2
         },
         half(){
-            this.count/2
+            this.count/=2
         },
         reset(){
             this.count=1
         },
         increment($a){
-            this.count+$a;
+            this.count+=$a;
         },
         decrement($a){
-            this.count-$a;
+            this.count-=$a;
         },
     }
 });
