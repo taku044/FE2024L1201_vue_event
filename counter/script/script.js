@@ -3,7 +3,8 @@ new Vue({
     el: '#app',
     data() {
         return{
-           count: 1
+           count: 1,
+           count2
         };
     },
     methods: {
@@ -16,11 +17,11 @@ new Vue({
         reset(){
             this.count=1
         },
-        increment($a){
-            this.count+=$a;
+        increment(){
+            this.count+=this.count2;
         },
-        decrement($a){
-            this.count-=$a;
+        decrement(){
+            this.count-=this.count2;
         },
     }
 });
