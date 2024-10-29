@@ -16,11 +16,11 @@ new Vue({
         reset(){
             this.count=1
         },
-        increment(){
-            this.count+a;
+        increment($a){
+            this.count+$a;
         },
-        decrement(){
-            this.count-a;
+        decrement($a){
+            this.count-$a;
         },
     }
 });
